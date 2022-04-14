@@ -44,7 +44,6 @@ const Auth = (props) => {
             provider = new GoogleAuthProvider();
         }
         const data = await signInWithPopup(authService, provider);
-        console.log(data);
     };
     return(
     <div>
